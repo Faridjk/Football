@@ -88,13 +88,9 @@ a{
     background-image: url(dark.jpg);
     background-size: cover;
 }
-.review{
-    height: 90%;
-}
-@media(max-width:500px){
-    .review{
-        height: 740px;
-    }
+.review img{
+    object-fit: cover;
+    margin-bottom: -3rem;
 }
 .review .quote-icon{
     font-size: 84px;
