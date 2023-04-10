@@ -1,0 +1,115 @@
+body{
+    line-height: 1.7;
+    background-color: rgb(240, 235, 235);
+}
+
+a{
+    color: #222;
+    text-decoration: none;
+    transition: 0.4s;
+    font-weight: 700;
+}
+.btn-dark{
+    border-radius: 0;
+    font-weight: 600    ;
+}
+.btn-dark:hover{
+    background-color:transparent;
+    border-color: black;
+    color: black;
+}
+
+
+.slide-1{
+    background-image: url(car1.jpg);
+    background-size: cover;
+}
+.slide-2{
+    background-image: url(car2.jpg);
+    background-size:cover;
+}
+.slide-3{
+    background-image:url(car3.jpg);
+    background-size:cover;
+}
+
+.section{
+    margin:120px 0 ;
+}
+.right{
+    padding-left:100px;
+}
+.text{
+    text-align: center;
+}
+#kartlar .nav-pills .nav-link{
+    background-color:white;
+    color: #222;
+}
+
+#kartlar .nav-pills .nav-link.active{
+    background-color: black;
+    color: white;
+    border-radius: 100px;
+}
+#whyfootball{
+    background-image: url(definitionoffootball.webp);
+    width: 100%;
+    background-size:cover;
+    background-attachment: fixed;
+}
+.project{
+    position: relative;
+    overflow: hidden;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    transition: 0.4s;
+    background-color: rgba(21, 20, 31, 0.8);
+    opacity: 0;
+    padding: 20px;
+    
+}
+.overlay:hover{
+    opacity: 1;
+}
+.project:hover img{
+    transform: scale(1.1);
+}
+.project img{
+    transition: 0.4s;
+}
+#carousel2{
+    background-image: url(dark.jpg);
+    background-size: cover;
+}
+.review{
+    height: 90%;
+}
+.review .quote-icon{
+    font-size: 84px;
+    color: rgb(6, 6, 93);
+}
+.form-control{
+    border-radius: 0;
+    caret-color: blue;
+}
+footer{
+    background-color: #F8F9FA;
+}
+.social-link{
+    font-size: 34px;
+}
+.footer-bottom{
+    border-top: 1px solid #777;
+}
+@media(max-width:1100px){
+    .right{
+        padding: 10px;
+    }
+}
