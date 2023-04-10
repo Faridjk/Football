@@ -91,6 +91,11 @@ a{
 .review{
     height: 90%;
 }
+@media(max-width:500px){
+    .review{
+        height: 740px;
+    }
+}
 .review .quote-icon{
     font-size: 84px;
     color: rgb(6, 6, 93);
